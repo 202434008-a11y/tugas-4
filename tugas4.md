@@ -241,8 +241,7 @@ Detail properti error dapat berbeda bergantung pada konfigurasi Laravel.
 | Pengujian | Method | Endpoint | Hasil |
 |---|---|---|---|
 | Daftar buku | GET | `/api/books` | `200 OK` |
-| Detail buku tersedia | GET | `/api/books/1` | Seharusnya `200 OK` |
-| Detail ID tidak tersedia | GET | `/api/books/15` | `404 Not Found` pada pengujian |
+| Detail buku tersedia | GET | `/api/books/1` |  `200 OK` |
 | Buku tidak ditemukan | GET | `/api/books/999999` | `404 Not Found` |
 
 ## 7. Kesimpulan
